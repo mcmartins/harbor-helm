@@ -464,16 +464,6 @@ core:
   xsrfKey: ""
   ## The priority class to run the pod as
   priorityClassName:
-  # Extra volumes to add to the container, e.g.:
-  #  - name: registry-data
-  #    persistentVolumeClaim:
-  #      claimName: nfs-harbor-registry-pvc
-  extraVolumes: []
-  # Extra volume mounts to add to the container, e.g.:
-  #  - mountPath: /data
-  #    name: registry-data
-  #    subPath: core
-  extraVolumeMounts: []
 
 jobservice:
   image:
